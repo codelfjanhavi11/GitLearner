@@ -12,11 +12,11 @@
 
 #Problem 7- Take a user input and check whether the entered number is palindrome or not ( Palindrome number is the number of we reverse it then also we got the same number like 313, 121, 232 etc.
 
-n<-as.numeric(readline(prompt = "enter the number: "))
+n<-scan()
 n
 s=0
 for(i in 1:n){
-  s=s+i
+  s=s+n[10]
   print(s)
 }
 
